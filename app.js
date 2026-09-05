@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initTwitchPlayer();
   initCommandsCopy();
   initRetroAudioEffects();
+  initScheduleLoader();
 });
 
 /* -------------------------------------------------------------------------- */
@@ -160,4 +161,50 @@ function initRetroAudioEffects() {
       playBeep(700, 0.02);
     });
   });
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5. Dynamic Schedule Loader from events.json                                 */
+/* -------------------------------------------------------------------------- */
+async function initScheduleLoader() {
+  const container = document.getElementById('events-container');
+  if (!container) return;
+
+  try {
+    const res = await fetch('events.json?' + Date.now());
+    if (!res.ok) return;
+    const events = await res.json();
+    if (!events || events.length === 0) return;
+
+    events.sort((a, b) => new Date(a.date) - new Date(b.date));
+
+    container.innerHTML = '';
+    events.forEach(ev => {
+      const card = document.createElement('div');
+      card.className = 'event-card';
+
+      let formattedDate = 'Geplant';
+      if (ev.date) {
+        const d = new Date(ev.date);
+        formattedDate = d.toLocaleString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' Uhr';
+      }
+
+      card.innerHTML = `
+        <div class="event-meta">
+          <span class="event-date">📅 ${formattedDate}</span>
+          <span class="event-category">${escapeHtml(ev.category || 'Stream')}</span>
+        </div>
+        <h3 class="event-title">${escapeHtml(ev.title)}</h3>
+        <p class="event-desc">${escapeHtml(ev.description)}</p>
+      `;
+      container.appendChild(card);
+    });
+  } catch (e) {
+    // Keep fallback static events
+  }
+}
+
+function escapeHtml(text) {
+  if (!text) return '';
+  return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }

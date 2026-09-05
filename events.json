@@ -1,0 +1,23 @@
+[
+  {
+    "id": "event-1",
+    "title": "Minecraft Modpack Chaos (Create & Mekanism)",
+    "category": "Minecraft / Modded",
+    "date": "2026-09-08T18:30",
+    "description": "Komplexe Maschinen, automatisierte Fabriken und cursed Redstone-Schaltungen mit der Community."
+  },
+  {
+    "id": "event-2",
+    "title": "Roblox Notruf Hamburg & Nexus Server",
+    "category": "Roblox / Gaming",
+    "date": "2026-09-11T19:00",
+    "description": "Einsatzfahrten, Notruf Hamburg mit der Community und interaktives Gameplay im Chat."
+  },
+  {
+    "id": "event-3",
+    "title": "3-Uhr-Nachts Talk & Tech-Experimente",
+    "category": "Community Talk",
+    "date": "2026-09-12T23:00",
+    "description": "Late-Night Gespräche über Technik, Musik (Suno) und spontaneous Chaos mit den Special Friends."
+  }
+]
