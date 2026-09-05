@@ -18,8 +18,8 @@ Die offizielle, moderne und ressourcenschonende Web-Präsenz für den Twitch-Str
 - 🌌 **Special Friends Showcase:** Eigener Bereich für enge Community-Begleiter (**Chrii**, **Dinli_TV**, **AliPacinoRP**) mit echten Avataren und Twitch-Direktlinks.
 - 📡 **Privacy-First Live Stream Player:** 2-Klick-Lösung für Twitch-Embeds zur Einhaltung der DSGVO.
 - 🗓️ **Sendeplan & Events:** Übersicht über geplante Minecraft- (Create & Mekanism), Roblox- und Late-Night-Sessions.
-- 🔗 **Link-Hub Matrix:** Bündelt Twitch, Discord, YouTube, TikTok, Instagram, WhatsApp-Kanal, Element/Matrix Space und Suno Musik.
-- ⌨️ **Chat Commands Verzeichnis:** Schneller Zugriff auf Chat-Befehle (`!dc`, `!links`, `!matrix`, `!suno`, `!friends`, `!lurk`) mit 1-Klick-Kopieren und Toast-Feedback.
+- 🔗 **Link-Hub Matrix:** Bündelt Twitch, Discord, YouTube, TikTok, Instagram, WhatsApp-Kanal, Element/Matrix Space und SoundCloud Musik.
+- ⌨️ **Chat Commands Verzeichnis:** Schneller Zugriff auf Chat-Befehle (`!dc`, `!links`, `!matrix`, `!soundcloud`, `!friends`, `!lurk`) mit 1-Klick-Kopieren und Toast-Feedback.
 - ⚖️ **Rechtssicherheit (DSGVO & TMG/DDG):** Vollständiges Impressum und Datenschutzerklärung.
 
 ---
