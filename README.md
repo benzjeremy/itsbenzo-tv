@@ -4,6 +4,12 @@
 [![Twitch](https://img.shields.io/badge/Twitch-ItsBenzo__TV-9146ff?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/itsbenzo_tv)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://dcserver.link/itsbenzotv)
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue?style=for-the-badge)](LICENSE)
+[![Status: Pre-Release](https://img.shields.io/badge/Status-Pre--Release%20%2F%20WIP-orange.svg?style=for-the-badge)](https://benzjeremy.github.io/itsbenzo-tv/)
+
+> [!IMPORTANT]
+> ### 🚧 Pre-Release / Active Development Notice
+> **This web hub and software showcase is under active development.**  
+> Content modules, streaming schedules, and interactive features are continuously updated as pre-releases.
 
 The official, modern, and resource-friendly web hub for Twitch streamer **ItsBenzo_TV**. Pure, semantic HTML5, high-performance CSS3, and lightweight vanilla JavaScript — **100% framework-free, legally compliant, and zero bloat**.
 
